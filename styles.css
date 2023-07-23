@@ -1,0 +1,160 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+section{
+    height: 500px;
+    background-color: #A0BFE0;
+    border: solid black 1px;
+
+}
+
+.first{
+    background-color: #283747;
+    height: 100vh;
+    color:white;
+    font-size: 30px;
+}
+
+footer{
+    height: 500px;
+    padding: 90px;
+    background-color: #212A3E;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li{
+    width: 170px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+     
+}
+
+p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.text{
+    margin-left: 60px;
+    margin-top : 300px;
+    font-size: 10px;  
+}
+
+.button{
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #3F72AF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+
+.text-area{
+     display: flex;
+     flex-direction: column;
+     height:100%;
+     justify-content: center;
+     margin-top: 300px;
+} 
+
+.button:active {
+    background-color: rgb(68, 72, 72);
+    color: grey
+
+}
+
+.second{
+     font-size: 20px;
+     display: flex;
+     justify-content: space-around;
+     padding: 80px;
+}
+
+.second-sub{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    background-color: #C5DFF8;
+    padding: 140px;
+
+}
+ 
+h2{
+    font-size: 40px;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dp{
+    width: 360px;
+    height: 380px;
+    border-radius: 50%;
+    margin-left: 700px;
+    margin-bottom: 1700px;
+    
+}
+
+.project-card{ 
+    width: 310px;
+    height: 500px;
+    box-shadow: 5px 5px 15px rgb(201, 194, 194);    
+    background-color: whitesmoke;
+}
+
+.subtext{
+    font-size: 20px;
+    font-weight: 700; 
+    padding: 10px;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.link{
+    text-decoration: none;
+     color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials{
+    text-align: center;
+    padding-top: 50px;;
+}
